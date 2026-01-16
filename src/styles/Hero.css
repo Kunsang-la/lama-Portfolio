@@ -86,4 +86,102 @@
   line-height: 1.6;
   color: #555;
 }
+/* =========================
+   TABLET (≤ 1024px)
+   ========================= */
+@media (max-width: 1024px) {
+  .about-container {
+    padding: 24px;
+  }
+
+  .about-title {
+    font-size: 36px;
+    margin-bottom: 56px;
+  }
+
+  .intro {
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    margin-top: 0;
+  }
+
+  .intro-text h2 {
+    font-size: 28px;
+  }
+
+  .interests-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+
+  .interest-text h3 {
+    font-size: 24px;
+  }
+}
+
+/* =========================
+   MOBILE (≤ 768px)
+   ========================= */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 24px 16px;
+  }
+
+  .about-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .intro-image {
+    padding: 24px;
+  }
+
+  .intro-image img {
+    max-width: 260px;
+  }
+
+  .intro-text h2 {
+    font-size: 24px;
+  }
+
+  .intro-text p {
+    max-width: 100%;
+  }
+
+  .interests-row {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .interest-card {
+    height: 180px;
+  }
+
+  .interest-text h3 {
+    font-size: 22px;
+  }
+}
+
+/* =========================
+   SMALL MOBILE (≤ 480px)
+   ========================= */
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 26px;
+  }
+
+  .intro-text h2 {
+    font-size: 22px;
+  }
+
+  .interest-text h3 {
+    font-size: 20px;
+  }
+}
 

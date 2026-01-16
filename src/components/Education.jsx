@@ -11,7 +11,7 @@ const Education = () => {
   }, []);
 
   return (
-    <section className="education-section">
+    <section id="education" className="education-section">
       <div className="education-container">
         <h2 className="education-title">Education</h2>
 

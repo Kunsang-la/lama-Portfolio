@@ -1,24 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-.header {
-  height: 72px;
-  padding: 0 48px;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  font-family: 'Inter', sans-serif;
-  background-color: #ffffff;
+* {
+  box-sizing: border-box;
 }
 
+.header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+  font-family: 'Inter', sans-serif;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 48px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 .brand {
-  margin-left: 11%;
   font-size: 22px;
   font-weight: 600;
   letter-spacing: 0.08em;
   color: #111111;
 }
+
+
 .nav-links {
-  margin-left:900px;
   display: flex;
   align-items: center;
   gap: 36px;
@@ -34,6 +45,7 @@
   transition: color 0.2s ease;
 }
 
+
 .nav-links a::after {
   content: '';
   position: absolute;
@@ -45,10 +57,35 @@
   transition: width 0.25s ease;
 }
 
-.nav-links a:hover {
-  color: #000000;
-}
-
 .nav-links a:hover::after {
   width: 100%;
+}
+
+/* =========================
+   TABLET (≤ 768px)
+   ========================= */
+@media (max-width: 768px) {
+  .header-container {
+    padding: 0 24px;
+  }
+
+  .nav-links {
+    gap: 24px;
+  }
+}
+
+/* =========================
+   MOBILE (≤ 600px)
+   ========================= */
+@media (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    height: auto;
+    padding: 16px;
+    gap: 12px;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
 }

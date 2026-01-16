@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Volleyball",
+    "description": "Playing volleyball keeps me physically active, improves teamwork, and sharpens my focus and discipline.",
+    "color": "card-1",
+    "image": "images/vball.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Music",
+    "description": "Listening to and exploring music helps me relax, stay creative, and maintain mental balance.",
+    "color": "card-2",
+    "image": "images/music.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Travelling",
+    "description": "Travelling allows me to explore new cultures, perspectives, and experiences beyond my comfort zone.",
+    "color": "card-3",
+    "image": "images/travel.jpg"
+  }
+]

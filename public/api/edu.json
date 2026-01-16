@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "school": "Medhavi Skills University",
+    "qualification": "Master of Computer Applications (MCA)",
+    "image": "images/MSU.png"
+  },
+  {
+    "id": 2,
+    "school": "Salesian College Sonada",
+    "qualification": "Bachelor of Computer Applications (BCA)",
+    "image": "images/salesian.png"
+  },
+  {
+    "id": 2,
+    "school": "Himali Boarding school",
+    "qualification": "  Higher Secondary Education (10+2)",
+    "image": "images/himali-school.png"
+  }
+]
+
